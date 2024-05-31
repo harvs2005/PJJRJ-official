@@ -1,0 +1,358 @@
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body{
+  background-color: skyblue;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  color:white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.banner {
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  align-items: center;
+}
+.info{
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.info2{
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.link-icon{
+  
+    padding: 15px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  
+}
+.link-icon:hover{
+  border-radius: 25px;
+  background-color: #b0aeae;
+  color: black;
+  border-radius: 2px;
+  border-radius: 25px;
+  background-color:rgba(100, 99, 99, 0.356);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.ebas {
+  margin: 14px;
+  margin-bottom: 14PX;
+}
+
+.fld {
+  background-color: rgba(255, 255, 255, 0.492);
+  border-radius: 10px;
+}
+li {
+  padding: 0px;
+}
+
+.text {
+  background-color:rgba(211, 211, 211, 0.373);
+  color: #000000;
+  width: 82%;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 0px;
+  float: right;
+  font-style: italic;
+  font-size: 24px;
+  text-align: justify;
+  text-indent: 50px;
+
+}
+.textBG{
+  background-image: url(bg_bandidos.jpg#);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 25px;
+  text-align: justify;
+  text-indent: 50px;
+  background-color: rgba(211, 211, 211, 0.251);
+}
+.year {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.history {
+  width: 82%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 0px;
+  float: right;
+  font-style: italic;
+  font-size: 25px;
+  text-align: justify;
+  text-indent: 50px;
+  background-color: rgba(211, 211, 211, 0.251);
+ 
+}
+
+.majorSub {
+  width: 84%;
+  padding-left: 30px;
+  padding-right: 20px;
+  float: right;
+  text-align: justify;
+}
+
+.topnav {
+  height: 20px;
+  display: flex;
+  width: calc(100% - 40px) !important;
+  background-color: #628899 ;
+  margin-top: 125px;
+  padding: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: left;
+}
+
+.topnav>.nav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+
+.topnav>.nav>a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.topnav>.nav>a:hover {
+  border-radius: 25px;
+  background-color: #b0aeae;
+  color: black;
+  border-radius: 2px;
+  border-radius: 25px;
+  background-color:rgba(100, 99, 99, 0.853);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.topnav>.nav>a.active {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border-radius: 25px;
+}
+
+.logo {
+  border: 10px solid;
+  border-color: skyblue;
+  border-radius: 50%;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 15px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  border-radius: 25px;
+  background-color:rgba(100, 99, 99, 0.853);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  border-radius: 25px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.dropdown-content a:hover {
+  background-color:rgba(153, 153, 153, 0.66);
+  border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.code {
+  border: 10px solid;
+  border-color: grey;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+  bottom: 15px;
+}
+.home{
+  background-color: #500808;
+  text-shadow:2px 2px 4px black;
+  display: flex;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home2{
+  color:rgb(255, 255, 255);
+}
+.emblem{
+  border-radius: 50%;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  width: 300px;
+  height: 300px;
+  bottom: 15px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.body {
+  background-color: skyblue;
+  display: flex;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.body > * {
+  display: block;
+}
+.sidenav1 {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(94, 93, 93);
+}
+.fldnav {
+  padding: 105px 40px 105px 40px;
+}
+
+li {
+  padding: 45px;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  border-radius: 20px;
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  border-radius: 15px;
+  background-color: #b0aeae;
+  color: white;
+  border-radius: 25px;
+  background-color:rgb(53, 53, 53);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
